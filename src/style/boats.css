@@ -1,0 +1,51 @@
+.container-boats{
+    width: 100%;
+    
+}
+
+.boats{
+    width: 100%;
+    display: flex;
+}
+
+.square{
+    background-color: black;
+    width: 35px;
+    height: 35px;
+}
+
+.submarino{
+    
+    border-radius: 50%;
+    margin: 0 5%;
+}
+
+.container-destructor, .container-cruceros, .container-acorazado{
+    width: 100%;
+    display: flex;
+}
+
+.square-left{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-right:solid 1px white;
+}
+
+.square-right{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.square-middle{
+    border-right:solid 1px white;
+}
+
+.container-drag{
+    display: flex;
+}
+
+.drag{
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}

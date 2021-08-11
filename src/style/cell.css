@@ -1,0 +1,9 @@
+.cell{
+    background: #fff;
+  border: 1px solid #999;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-right: -1px;
+  margin-top: -1px;
+}
